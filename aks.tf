@@ -13,13 +13,14 @@ module "network" {
 }
 
 module "aks" {
-  source              = "Azure/aks/azurerm"
-  resource_group_name = azurerm_resource_group.aks_resource_group.name
-  client_id           = var.client_id
-  client_secret       = var.client_secret
-  prefix              = var.prefix
-  agents_count        = var.agents_count
-  agents_size         = var.agents_size
+  source                          = "Azure/aks/azurerm"
+  resource_group_name             = azurerm_resource_group.aks_resource_group.name
+  client_id                       = var.client_id
+  client_secret                   = var.client_secret
+  prefix                          = var.prefix
+  agents_count                    = var.agents_count
+  agents_size                     = var.agents_size
+  enable_http_application_routing = true
 
   depends_on = [
       azurerm_resource_group.aks_resource_group
