@@ -1,5 +1,5 @@
 # Microservices Platform in Azure
-[![Build Status](https://dev.azure.com/pliniogsnascimento/Ecommerce-Platform/_apis/build/status/Ecommerce-Platform?branchName=develop)](https://dev.azure.com/pliniogsnascimento/Ecommerce-Platform/_build/latest?definitionId=9&branchName=develop)
+[![Build Status](https://dev.azure.com/pliniogsnascimento/Ecommerce-Platform/_apis/build/status/pliniogsnascimento.microservices-platform-in-azure?branchName=master)](https://dev.azure.com/pliniogsnascimento/Ecommerce-Platform/_build/latest?definitionId=10&branchName=master)
 
 This repo contains the resources to provision a kubernetes cluster and other usefull resources to build a complete platform for microservices architecure. It is focused to an ecommerce domain, design with bounded-contexts to determine great granularity between applications.
 
