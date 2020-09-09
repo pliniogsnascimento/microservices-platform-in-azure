@@ -1,0 +1,6 @@
+.terraform/
+*.plan
+*.tfstate*
+*.info
+*key
+local.tfvars
