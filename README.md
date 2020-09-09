@@ -16,7 +16,7 @@ client_id="client_id"
 client_secret="client_secret"
 ```
 
-You can also copy the keys and change at "dev.tfvars" file to "local.tfvars".
+You can also copy the keys from "dev.tfvars" to "local.tfvars" and change as you wish.
 
 Run the following commands to provision the infrastructure:
 
