@@ -25,4 +25,6 @@ module "aks" {
   depends_on = [
       azurerm_resource_group.aks_resource_group
   ]
+
+  version = "4.0.0"
 }
