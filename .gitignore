@@ -3,4 +3,5 @@
 *.tfstate*
 *.info
 *key
+*.lock.hcl
 local.tfvars

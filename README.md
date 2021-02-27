@@ -3,13 +3,13 @@
 
 This repo contains the resources to provision a kubernetes cluster and other usefull resources to build a complete platform for microservices architecure. It is focused to an ecommerce domain, design with bounded-contexts to determine great granularity between applications.
 
-## Pre requisites
+# Pre requisites
 
 - Terraform >= 0.13
 - Azure CLI >= 2.11
 
-## Getting started
-This project is built with terraform azure CLI. To get started with, create **environments/local.tfvars** file, to configure local authentication:
+# Getting started
+This project is built with terraform azure CLI. To get started with, create **environments/local.tfvars** file to configure local authentication:
 
 ```
 client_id="client_id"
